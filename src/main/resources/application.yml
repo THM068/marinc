@@ -1,0 +1,12 @@
+micronaut:
+    application:
+        name: marinc
+    router:
+        static-resources:
+            default:
+                enabled: true
+                mapping: /**
+                paths:
+                - classpath:public
+jackson:
+    module-scan: false

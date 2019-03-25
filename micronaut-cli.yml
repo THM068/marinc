@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: marinc
+---
+testFramework: junit
+sourceLanguage: java
